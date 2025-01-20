@@ -77,3 +77,6 @@ function calcularStatsFinales(baseStats, ivs, evs, nivel, naturaleza) {
     return stats;
 }
 ````
+Tambien podría poner cosas como el renderizado de getAPoke o el paginado, pero estaría poniendo todo el codigo y claro, mejor te descargas el codigo que esta todo comentado. Quería poner un jaja, pero eso no es formal y tal, aunque ahora estaras leyendo que quería poner un jaja.
+
+Total, ya lo he puesto y el proyecto es mio, a parte que dudo que alguien lea esto, literalmente nadie se lee los read me, pero yo los hago porque soy raro.
