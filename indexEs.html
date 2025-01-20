@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <script src="scriptEs.js" type="text/javascript" defer></script>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="img/pokedex.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Pokedex</h1>
+        <div class="controls">
+            <input type="text" id="search" placeholder="Busca un Pokémon...">
+            <button id="search-btn">Buscar</button>
+        </div>
+        <button id="change-language-btn">Cambiar a Inglés</button>
+    </header>
+    <main>
+        <div class="pokemon-container"></div>
+        <div class="pagination">
+            <button id="prev-btn" disabled>Anterior</button>
+            <button id="next-btn">Siguiente</button>
+        </div>
+    </main>
+    <script src="./js/scriptEs.js"></script>
+</body>
+</html>
